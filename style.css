@@ -3,12 +3,12 @@ body {
 }
 
 
-.Top_menu li{
+.navbar li{
   display: inline-block;
   vertical-align: middle;
   margin-right: 150px;
   }
-.Top_menu a{
+.navbar a{
   font-size: 20px;
   font-family: Comic Sans MS; 
   color: Black;
@@ -20,6 +20,7 @@ body {
   vertical-align: middle;
   margin-right: 35px;
 }
+
 .menu a{
   font-size: 20px;
   font-family:Comic Sans MS; 
