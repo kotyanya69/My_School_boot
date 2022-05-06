@@ -1,30 +1,49 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<title>Сайт о школе</title>
-	
-    <!-- Подключаем Bootstrap CSS через CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <head>
+    <!-- Обязательные метатеги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Школа</title>
 
-    <!-- Подключаем style.css -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
+   <link rel = "stylesheet" href="style.css">
 </head>
-   
-   <body>
+<body>
    
    <!-- Контент страницы -->
-   
-   <div style="overflow:auto">
-  <div class="Top_menu"> 
-    <ul>
-       <li><a href="about.html">О школе</a></li>
-       <li><a href="lessons.html">Дисциплины</a></li>
-       <li><a href="contacts.html">Контакты</a></li>
-       <li><a href="teacher.html">Классный руководитель</a></li>
-	</ul>
-  </div>
+  <nav class="navbar navbar-expand-lg bg-warning navbar-light">
+		<div class="container">
+		<a href="#" class="navbar-brand">Школа №491 "Марьино"</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-epended="False" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ">
+				<li class="nav-item active">
+					<a href="#" class="nav-link">О школе</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Дисциплины</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="maths.html">Математика</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="informatics.html">Информатика</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="biology.html">Биология</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="chemistry.html">Химия</a>
+					</div>
+				<li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+				<li class="nav-item"><a href="teacher.html" class="nav-link">Классный руководитель</a></li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+	<div class="row"></div>
 
       <h1 class="special">Государственное бюджетное общеобразовательное учреждение города Москвы "Школа № 491 "Марьино"</h1>
       <p>Школа № 491 “Марьино” является общеобразовательным учреждением города Москвы, реализующим программы дошкольного, начального, основного общего и среднего общего образования, а также дополнительного образования для детей. В нашей школе реализуются такие программы, как <span class="special2">«Инженерный класс в московской школе», «Кадетский класс в московской школе», «Математическая вертикаль», проводятся тапы Всероссийской олимпиады школьников</span>. Ученики школы регулярно выходят на региональный этап Всероссийской олимпиады и становятся призерами олимпиады по таким предметам, как обществознание, история, правоведение, литература. Также в нашей школе есть хореографический, театральный, музыкальный отдел дополнительного образования.</p>
@@ -32,23 +51,8 @@
 
 	  <h2>Наши координаты:</h2>
 	  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A594ed8566aa4d1cc31b143645f79a5aa0f1335e24c46470d87454239599457ea&amp;width=100%25&amp;height=250&amp;lang=ru_RU&amp;scroll=true"></script>
-   <div class="menu"> 
-    <ul>
-       <li><a href="maths.html">Математика</a></li>
-       <li><a href="chemistry.html">Химия</a></li>
-       <li><a href="biology.html">Биология</a></li>
-       <li><a href="informatics.html">Информатика</a></li>
-	</ul>
-  </div>
   
-  <!-- Подключаем jQuery и Bootstrap JS через CDN -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
-   </body>
-   
-   
-   
-   
-   
- </html>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
