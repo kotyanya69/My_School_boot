@@ -1,0 +1,48 @@
+body {
+  background-color:LightSteelBlue;
+}
+
+
+.navbar li{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 150px;
+  }
+.navbar a{
+  font-size: 20px;
+  font-family: Comic Sans MS; 
+  color: Black;
+  vertical-align: middle;
+  }
+
+.menu li{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 35px;
+}
+
+.menu a{
+  font-size: 20px;
+  font-family:Comic Sans MS; 
+  color: Black;
+  vertical-align: middle;
+}
+ p{
+  font-size: 20px;
+  font-family:Comic Sans MS;
+  color: DarkSlateGrey;
+  vertical-align: middle;
+}
+ h2{
+  font-size: 20px;
+  font-family:Comic Sans MS;
+  color: Black;
+  vertical-align: middle;
+}
+.special {
+	text-align: center;
+	font-family:Comic Sans MS; 
+} 
+.special2 {
+	color: yellow; 
+} 
